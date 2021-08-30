@@ -1,0 +1,61 @@
+baseurl = "https://donho.tech"
+title = "Don Ho"
+theme = "hugo-coder"
+languageCode = "en"
+defaultContentLanguage = "en"
+
+paginate = 20
+canonifyUrls = true
+
+[markup]
+	[markup.highlight]
+		codeFences = true
+		style = "bw"
+		guessSyntax = false
+
+[params]
+    author = "Don Ho"
+    info = "Hey! I'm blogging about programming!"
+    description = "A blog about programming and web development"
+    keywords = "blog,developer,personal"
+    avatarurl = "images/janne_square.jpeg"
+
+    favicon_32 = "/img/favicon-32x32.png"
+    favicon_16 = "/img/favicon-16x16.png"
+
+    footercontent = "Tech, tips and stuff"
+
+    hidecredits = false
+    hidecopyright = false
+
+    rtl = false
+
+    math = true
+    custom_css = ["css/custom.css"]
+
+# Social links
+[[params.social]]
+    name = "Github"
+    icon = "fab fa-github fa-2x"
+    weight = 1
+    url = "https://github.com/herrho/"
+[[params.social]]
+    name = "YouTube"
+    icon = "fab fa-youtube fa-2x"
+    weight = 2
+    url = "https://www.youtube.com/channel/UCg_e3UBPs-BxPo_jVg1gGOQ"
+[[params.social]]
+    name = "Twitter"
+    icon = "fab fa-twitter fa-2x"
+    weight = 3
+    url = "https://twitter.com/herrho/"
+
+# Menu links
+[[menu.main]]
+    name = "Blog"
+    weight = 1
+    url  = "/posts/"
+[[menu.main]]
+    name = "About"
+    weight = 2
+    url = "/about/"
