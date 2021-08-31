@@ -1,4 +1,4 @@
-baseurl = "https://donho.tech"
+baseurl = "https://distracted-darwin-b970b2.netlify.app/"
 title = "Don Ho"
 theme = "hugo-coder"
 languageCode = "en"
