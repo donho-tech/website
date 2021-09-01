@@ -52,6 +52,7 @@ canonifyUrls = true
     url = "https://twitter.com/herrho/"
 
 # Menu links
+[menu]
 [[menu.main]]
     name = "Blog"
     weight = 1

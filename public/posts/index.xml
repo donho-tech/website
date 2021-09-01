@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Don Ho</title>
-    <link>https://distracted-darwin-b970b2.netlify.app/</link>
-    <description>Recent content on Don Ho</description>
+    <title>Posts on Don Ho</title>
+    <link>https://distracted-darwin-b970b2.netlify.app/posts/</link>
+    <description>Recent content in Posts on Don Ho</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 31 Aug 2021 19:55:18 +0200</lastBuildDate><atom:link href="https://distracted-darwin-b970b2.netlify.app/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 31 Aug 2021 19:55:18 +0200</lastBuildDate><atom:link href="https://distracted-darwin-b970b2.netlify.app/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>A minimal Spring Data REST example</title>
       <link>https://distracted-darwin-b970b2.netlify.app/posts/spring-data-rest-minimal/</link>
