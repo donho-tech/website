@@ -65,6 +65,12 @@ canonifyUrls = true
     weight = 110
 
 [[menu.main]]
+    identifier = "herrgottnocheins"
+    name = "Josdasdf"
+    url = "/jo/"
+    weight = 3
+
+[[menu.main]]
     name = "About"
     weight = 2
     url = "/about/"
