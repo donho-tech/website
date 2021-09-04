@@ -1,13 +1,14 @@
 {{ define "main" }}
     <div class="jumbotron">
         <div class="container">
-            <h1 class="display-4">{{ .Site.Title}}</h1>
-            <p class="lead">{{ .Site.Params.Description }}</p>
+            <h1 class="display-4">{{ .Page.Params.greeting }}</h1>
+            <p class="lead">{{ .Page.Params.introduction }}</p>
             {{ .Content }}
+
+            <button type="button" class="btn btn-primary">Let's talk</button>
         </div>
     </div>
 
-    <button type="button" class="btn btn-primary">Let's talk</button>
 
     <div class="container">
         {{ $recentposts := 5 }}

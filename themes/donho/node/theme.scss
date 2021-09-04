@@ -1,13 +1,9 @@
 @import "node_modules/bootstrap/scss/bootstrap";
 
-$body-bg: #fefefe;
-$body-color: #111;
+// Include custom variable default overrides here
+//$theme-colors: (
+//        "primary": #ffff00,
+//        "danger": #ff4136
+//);
 
-$theme-colors: (
-        "primary": #ff0000,
-        "danger": #ff4136
-);
 
-$enable-rounded: false;
-$enable-shadows: true;
-$enable-gradients: true;
