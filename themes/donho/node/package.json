@@ -1,0 +1,13 @@
+{
+    "name": "donho",
+    "version": "0.0.1",
+    "description": "personal website",
+    "scripts": {
+        "build": "node-sass theme.scss ../static/css/theme.css",
+        "watch": "node-sass --watch theme.scss ../static/css/theme.css"
+    },
+    "dependencies": {
+        "bootstrap": "^4.6.0",
+        "node-sass": "^6.0.1"
+    }
+}

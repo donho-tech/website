@@ -1,0 +1,13 @@
+@import "node_modules/bootstrap/scss/bootstrap";
+
+$body-bg: #fefefe;
+$body-color: #111;
+
+$theme-colors: (
+        "primary": #ff0000,
+        "danger": #ff4136
+);
+
+$enable-rounded: false;
+$enable-shadows: true;
+$enable-gradients: true;
