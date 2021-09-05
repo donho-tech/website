@@ -1,9 +1,15 @@
 {{ define "main" }}
-    <div class="jumbotron">
+    <div class="jumbotron homepage-hero p-0 pb-3">
+        {{- partial "header.html" . -}}
         <div class="container">
-            <h1 class="display-4">{{ .Page.Params.greeting }}</h1>
-            <p class="lead">{{ .Page.Params.introduction }}</p>
-            {{ .Content }}
+
+            <div class="row">
+                <div class="col-7">
+                    <h1 class="display-4">{{ .Page.Params.greeting }}</h1>
+                    <p class="lead">{{ .Page.Params.introduction }}</p>
+                    {{ .Content }}
+                </div>
+            </div>
 
             <button type="button" class="btn btn-primary">Let's talk</button>
         </div>
@@ -11,6 +17,21 @@
 
 
     <div class="container">
+        <h2 class="text-center">Companies I have worked with</h2>
+        Uniper, LVM, LZPD, DB Schenker, RWE
+
+        <h2 class="text-center">About me</h2>
+        I am a Java Developer based in Mönchengladbach, Germany.
+
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Enim amet elementum interdum lacus sit lacus a lectus.
+        Viverra vel sagittis suspendisse laoreet cum proin convallis iaculis. Porta ut mauris a vestibulum vulputate.
+        Nibh vel magna viverra nibh venenatis eu, blandit vulputate imperdiet. Quis arcu accumsan enim lectus justo,
+        erat tellus. Sit praesent arcu sed risus, enim nec facilisi. Et cursus iaculis tellus vel lobortis mauris.
+        Aliquam diam lectus pellentesque netus. Gravida aliquam bibendum enim non non sed.
+
+        <h2 class="text-center">Technology Stack</h2>
+        Java, Spring, Typescript, JavaScript, React
+
         {{ $recentposts := 5 }}
         {{ if .Params.recentposts }}
             {{ $recentposts = .Params.recentposts }}

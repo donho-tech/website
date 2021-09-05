@@ -6,4 +6,24 @@
 //        "danger": #ff4136
 //);
 
+:root {
+  --nav-bg-color: #8dd7d7;
+}
 
+.navbar-donho {
+  background-color: var(--nav-bg-color);
+}
+
+.jumbotron.homepage-hero {
+  height: 600px;
+
+  /*background-image: url("../img/hero-bg.jpg");*/
+  /*background-size: cover;*/
+  background-color: var(--nav-bg-color);
+}
+
+@include media-breakpoint-up(lg) {
+  .jumbotron.homepage-hero {
+    height: 500px;
+  }
+}
