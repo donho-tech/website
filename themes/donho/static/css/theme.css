@@ -7201,3 +7201,6 @@ a.text-dark:hover, a.text-dark:focus {
 @media (min-width: 992px) {
   .jumbotron.homepage-hero {
     height: 500px; } }
+
+.techstack {
+  background-color: #e9f6f6; }
