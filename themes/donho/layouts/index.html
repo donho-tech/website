@@ -17,20 +17,38 @@
 
 
     <div class="container">
-        <h2 class="text-center">Companies I have worked with</h2>
-        Uniper, LVM, LZPD, DB Schenker, RWE
+        <div class="mb-5">
+            <h2 class="text-center">Companies I have worked with</h2>
+            <div class="d-flex justify-content-around mt-3">
+                <img src="img/logo_uniper.svg" alt="Uniper Logo" width="80px"/>
+                <img src="img/logo_dbschenker.png" alt="DB Schenker Logo" width="360px"/>
+                <img src="img/logo_lvm.png" alt="LVM Logo" width="140px"/>
+                <img src="img/logo_rwe.png" alt="RWE Logo" width="140px" height="40px" class="mt-3"/>
+            </div>
+        </div>
 
-        <h2 class="text-center">About me</h2>
-        I am a Java Developer based in Mönchengladbach, Germany.
+        <div class="mb-5">
+            <h2 class="text-center">About me</h2>
+            <p>
+                I am a Java Developer based in Mönchengladbach, Germany.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Enim amet elementum interdum lacus sit lacus a
+                lectus.
+                Viverra vel sagittis suspendisse laoreet cum proin convallis iaculis. Porta ut mauris a vestibulum
+                vulputate.
+                Nibh vel magna viverra nibh venenatis eu, blandit vulputate imperdiet. Quis arcu accumsan enim lectus
+                justo,
+                erat tellus. Sit praesent arcu sed risus, enim nec facilisi. Et cursus iaculis tellus vel lobortis
+                mauris.
+                Aliquam diam lectus pellentesque netus. Gravida aliquam bibendum enim non non sed.
+            </p>
+        </div>
 
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Enim amet elementum interdum lacus sit lacus a lectus.
-        Viverra vel sagittis suspendisse laoreet cum proin convallis iaculis. Porta ut mauris a vestibulum vulputate.
-        Nibh vel magna viverra nibh venenatis eu, blandit vulputate imperdiet. Quis arcu accumsan enim lectus justo,
-        erat tellus. Sit praesent arcu sed risus, enim nec facilisi. Et cursus iaculis tellus vel lobortis mauris.
-        Aliquam diam lectus pellentesque netus. Gravida aliquam bibendum enim non non sed.
-
-        <h2 class="text-center">Technology Stack</h2>
-        Java, Spring, Typescript, JavaScript, React
+        <div class="mb-5">
+            <h2 class="text-center">Technology Stack</h2>
+            Java, Spring, Typescript, JavaScript, React
+        </div>
 
         {{ $recentposts := 5 }}
         {{ if .Params.recentposts }}
