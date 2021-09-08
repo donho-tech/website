@@ -60,3 +60,8 @@ pygmentsUseClasses = true
     name = "Blog"
     weight = 1
     url  = "/posts/"
+
+[[menu.footer]]
+    name = "Privacy & Terms"
+    weight = 1
+    url  = "/privacyterms/"
