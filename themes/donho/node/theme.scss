@@ -44,3 +44,23 @@ $container-max-widths: (
     height: 500px;
   }
 }
+
+.min-100 {
+  min-height: 100%;
+}
+
+.bottom-align-text {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.asdf {
+  //vertical-align:bottom;
+  position : relative;
+  bottom   : 0;
+}
+
+.b {
+  height: 600px;
+}

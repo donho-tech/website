@@ -1,14 +1,16 @@
 {{ define "main" }}
     <div class="jumbotron homepage-hero p-0 pb-3">
         {{- partial "header.html" . -}}
-        <div class="container">
-
-            <div class="row">
+        <div class="container h-auto">
+            <div class="row h-100 align-items-end">
                 <div class="col-12 col-md-7">
                     <h1 class="display-4">{{ .Page.Params.greeting }}</h1>
                     <p class="lead">{{ .Page.Params.introduction }}</p>
                     {{ .Content }}
                     <button type="button" class="btn btn-primary">Let's talk</button>
+                </div>
+                <div class="col-md-5">
+                    <img src="img/person.png" alt="Picture of Don Ho" width="350px"/>
                 </div>
             </div>
         </div>
@@ -17,7 +19,7 @@
 
     <div class="container">
         <div class="homepage-component">
-            <div class="lead text-center">Companies I have worked with</div>
+            <div class="lead text-center">Companies I have worked for</div>
             <div class="d-flex flex-wrap justify-content-around mt-3">
                 <img src="img/logo_uniper_bw.png" alt="Uniper Logo" width="60px"/>
                 <img src="img/logo_dbschenker_bw.png" alt="DB Schenker Logo" width="320px"/>
@@ -25,38 +27,6 @@
                 <img src="img/logo_rwe_bw.png" alt="RWE Logo" width="120px" height="35px" class="mt-3"/>
             </div>
         </div>
-
-        {{/*        <div class="mb-5">*/}}
-        {{/*            <h2 class="text-center">Technologies I use</h2>*/}}
-        {{/*            <div class="row">*/}}
-        {{/*                <div class="col-8">*/}}
-        {{/*                    <div class="row mb-2">*/}}
-        {{/*                        <div class="col p-3 techstack">*/}}
-        {{/*                            <h3>Frontend</h3>*/}}
-        {{/*                            ReactJS, Typescript, JavaScript, Bootstrap, Figma, Java Swing, JGoodies*/}}
-        {{/*                        </div>*/}}
-        {{/*                    </div>*/}}
-        {{/*                    <div class="row mb-2">*/}}
-        {{/*                        <div class="col p-3 techstack">*/}}
-        {{/*                            <h3>Backend</h3>*/}}
-        {{/*                            Java, Kotlin, Spring Framework, PostgreSQL*/}}
-        {{/*                        </div>*/}}
-        {{/*                    </div>*/}}
-        {{/*                    <div class="row mb-2">*/}}
-        {{/*                        <div class="col p-3 techstack">*/}}
-        {{/*                            <h3>Infrastructure</h3>*/}}
-        {{/*                            Azure Cloud, AWS Cloud, Hetzner Cloud*/}}
-        {{/*                        </div>*/}}
-        {{/*                    </div>*/}}
-        {{/*                </div>*/}}
-        {{/*                <div class="col-4">*/}}
-        {{/*                    <div class="col p-3 techstack">*/}}
-        {{/*                        <h3>Tools</h3>*/}}
-        {{/*                        IntelliJ IDEA, JProfiler, Gatling.io, JMeter*/}}
-        {{/*                    </div>*/}}
-        {{/*                </div>*/}}
-        {{/*            </div>*/}}
-        {{/*        </div>*/}}
 
         <div class="homepage-component">
             <div class="lead text-center">Technologies I use</div>
@@ -67,7 +37,6 @@
                     <span class="badge badge-secondary">Typescript</span>
                     <span class="badge badge-secondary">JavaScript</span>
                     <span class="badge badge-secondary">Bootstrap</span>
-                    <span class="badge badge-secondary">Figma</span>
                 </div>
                 <div class="col-12 col-md-4 p-3 techstack">
                     <div>Backend</div>
@@ -76,12 +45,10 @@
                     <span class="badge badge-secondary">Spring Framework</span>
                     <span class="badge badge-secondary">PostgreSQL</span>
                     <span class="badge badge-secondary">Hibernate</span>
-                    <span class="badge badge-secondary">Kafka</span>
                 </div>
                 <div class="col-12 col-md-4 p-3 techstack">
                     <div>Infrastructure</div>
                     <span class="badge badge-secondary">Azure Cloud</span>
-                    <span class="badge badge-secondary">AWS Cloud</span>
                     <span class="badge badge-secondary">Hetzner Cloud</span>
                     <span class="badge badge-secondary">Terraform</span>
                 </div>
@@ -91,9 +58,10 @@
         <div class="homepage-component">
             <h2 class="lead text-center">About me</h2>
             <p>
-                I am a Java Developer based in Mönchengladbach, Germany.
+                I started programming at the age of...
             </p>
             <p>
+                I love working on projects with...
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Enim amet elementum interdum lacus sit lacus a
                 lectus.
                 Viverra vel sagittis suspendisse laoreet cum proin convallis iaculis. Porta ut mauris a vestibulum
