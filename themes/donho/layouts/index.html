@@ -4,14 +4,13 @@
         <div class="container">
 
             <div class="row">
-                <div class="col-7">
+                <div class="col-12 col-md-7">
                     <h1 class="display-4">{{ .Page.Params.greeting }}</h1>
                     <p class="lead">{{ .Page.Params.introduction }}</p>
                     {{ .Content }}
+                    <button type="button" class="btn btn-primary">Let's talk</button>
                 </div>
             </div>
-
-            <button type="button" class="btn btn-primary">Let's talk</button>
         </div>
     </div>
 
@@ -19,7 +18,7 @@
     <div class="container">
         <div class="homepage-component">
             <div class="lead text-center">Companies I have worked with</div>
-            <div class="d-flex justify-content-around mt-3">
+            <div class="d-flex flex-wrap justify-content-around mt-3">
                 <img src="img/logo_uniper_bw.png" alt="Uniper Logo" width="60px"/>
                 <img src="img/logo_dbschenker_bw.png" alt="DB Schenker Logo" width="320px"/>
                 <img src="img/logo_lvm_bw.png" alt="LVM Logo" width="120px"/>
@@ -62,7 +61,7 @@
         <div class="homepage-component">
             <div class="lead text-center">Technologies I use</div>
             <div class="row">
-                <div class="col-4 p-3 techstack">
+                <div class="col-12 col-md-4 p-3 techstack">
                     <div>Frontend</div>
                     <span class="badge badge-secondary">ReactJS</span>
                     <span class="badge badge-secondary">Typescript</span>
@@ -70,7 +69,7 @@
                     <span class="badge badge-secondary">Bootstrap</span>
                     <span class="badge badge-secondary">Figma</span>
                 </div>
-                <div class="col-4 p-3 techstack">
+                <div class="col-12 col-md-4 p-3 techstack">
                     <div>Backend</div>
                     <span class="badge badge-secondary">Java</span>
                     <span class="badge badge-secondary">Kotlin</span>
@@ -79,7 +78,7 @@
                     <span class="badge badge-secondary">Hibernate</span>
                     <span class="badge badge-secondary">Kafka</span>
                 </div>
-                <div class="col-4 p-3 techstack">
+                <div class="col-12 col-md-4 p-3 techstack">
                     <div>Infrastructure</div>
                     <span class="badge badge-secondary">Azure Cloud</span>
                     <span class="badge badge-secondary">AWS Cloud</span>
