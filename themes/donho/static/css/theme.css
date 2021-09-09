@@ -1,12 +1,10 @@
 :root {
   --nav-bg-color: #8dd7d7; }
 
-.navbar-donho {
-  background-color: var(--nav-bg-color); }
-
 .jumbotron.homepage-hero {
   height: 600px;
-  /*background-image: url("../img/hero-bg.jpg");*/
+  background-image: url("../img/bg-small.jpg");
+  background-repeat: repeat;
   /*background-size: cover;*/
   background-color: var(--nav-bg-color); }
 
