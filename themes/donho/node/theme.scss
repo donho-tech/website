@@ -8,8 +8,7 @@ $container-max-widths: (
         sm: 540px,
         md: 720px,
         lg: 960px,
-        xl: 960px,
-        xxl: 960px
+        xl: 960px
 );
 
 :root {
@@ -30,7 +29,7 @@ $container-max-widths: (
 }
 
 .techstack {
- //background-color: #e9f6f6;
+  //background-color: #e9f6f6;
 }
 
 .homepage-component {
@@ -38,6 +37,19 @@ $container-max-widths: (
 }
 
 @import "node_modules/bootstrap/scss/bootstrap";
+
+//max-width of container
+.w-container {
+  max-width: none;
+}
+
+@each $breakpoint, $container-max-width in $container-max-widths {
+  @include media-breakpoint-up($breakpoint, $grid-breakpoints) {
+    .w-container {
+      max-width: $container-max-width;
+    }
+  }
+}
 
 @include media-breakpoint-up(lg) {
   .jumbotron.homepage-hero {
@@ -55,12 +67,3 @@ $container-max-widths: (
   right: 0;
 }
 
-.asdf {
-  //vertical-align:bottom;
-  position : relative;
-  bottom   : 0;
-}
-
-.w-container {
-  max-width: 960px;
-}
