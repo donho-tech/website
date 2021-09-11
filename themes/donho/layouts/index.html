@@ -1,16 +1,30 @@
 {{ define "main" }}
-    <div class="jumbotron homepage-hero p-0 pb-3">
-        {{- partial "header.html" . -}}
-        <div class="container h-auto">
-            <div class="row h-100 align-items-end">
-                <div class="col-12 col-md-7">
-                    <h1 class="display-4">{{ .Page.Params.greeting }}</h1>
-                    <p class="lead">{{ .Page.Params.introduction }}</p>
-                    {{ .Content }}
-                    <button type="button" class="btn btn-primary">Let's talk</button>
-                </div>
-                <div class="col-md-5">
-                    <img src="img/person.png" alt="Picture of Don Ho" width="350px"/>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col">
+                <div class="jumbotron homepage-hero p-0 h-hero">
+                    <div class="h-100 d-flex flex-column">
+                        <div>
+                            {{- partial "header.html" . -}}
+                        </div>
+                        <div class="flex-grow-1">
+                            <div class="row h-100 justify-content-center">
+                                <div class="col h-100 w-container">
+                                    <div class="row h-100 align-items-end">
+                                        <div class="col-12 col-md-7 pb-5">
+                                            <h1 class="display-4">{{ .Page.Params.greeting }}</h1>
+                                            <p class="lead">{{ .Page.Params.introduction }}</p>
+                                            {{ .Content }}
+                                            <button type="button" class="btn btn-primary">Let's talk</button>
+                                        </div>
+                                        <div class="col-md-5">
+                                            <img src="img/person.png" alt="Picture of Don Ho" width="350px"/>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -74,34 +88,34 @@
             </p>
         </div>
 
-{{/*        {{ $recentposts := 5 }}*/}}
-{{/*        {{ if .Params.recentposts }}*/}}
-{{/*            {{ $recentposts = .Params.recentposts }}*/}}
-{{/*        {{ end }}*/}}
+        {{/*        {{ $recentposts := 5 }}*/}}
+        {{/*        {{ if .Params.recentposts }}*/}}
+        {{/*            {{ $recentposts = .Params.recentposts }}*/}}
+        {{/*        {{ end }}*/}}
 
-{{/*        <div class="lead text-center">Recent posts</div>*/}}
+        {{/*        <div class="lead text-center">Recent posts</div>*/}}
 
-{{/*        {{ range first $recentposts (where .Pages "Type" "posts" ) }}*/}}
-{{/*            <h2 class="mt-5"><a class="text-body" href="{{ .URL | relURL}}">{{ .Title | markdownify}}</a></h2>*/}}
-{{/*            {{ if .Params.Subtitle }}*/}}
-{{/*                <h3 class="font-weight-light font-italic mb-3">{{ .Params.Subtitle | markdownify }}</h3>*/}}
-{{/*            {{ end }}*/}}
+        {{/*        {{ range first $recentposts (where .Pages "Type" "posts" ) }}*/}}
+        {{/*            <h2 class="mt-5"><a class="text-body" href="{{ .URL | relURL}}">{{ .Title | markdownify}}</a></h2>*/}}
+        {{/*            {{ if .Params.Subtitle }}*/}}
+        {{/*                <h3 class="font-weight-light font-italic mb-3">{{ .Params.Subtitle | markdownify }}</h3>*/}}
+        {{/*            {{ end }}*/}}
 
-{{/*            <p class="text-muted mt-3">*/}}
-{{/*                <a class="text-muted" href="{{ .Permalink }}">Published {{ .Date.Format "January 2, 2006"  }}</a>*/}}
+        {{/*            <p class="text-muted mt-3">*/}}
+        {{/*                <a class="text-muted" href="{{ .Permalink }}">Published {{ .Date.Format "January 2, 2006"  }}</a>*/}}
 
-{{/*                {{ range .Params.tags }}*/}}
-{{/*                    <a class="text-muted" href="{{ "/tags/" | relURL }}{{ . | urlize }}">#{{ . }}</a>*/}}
-{{/*                {{ end }}*/}}
-{{/*            </p>*/}}
+        {{/*                {{ range .Params.tags }}*/}}
+        {{/*                    <a class="text-muted" href="{{ "/tags/" | relURL }}{{ . | urlize }}">#{{ . }}</a>*/}}
+        {{/*                {{ end }}*/}}
+        {{/*            </p>*/}}
 
-{{/*            <article class="article">*/}}
-{{/*                <p>{{ .Summary }}</p>*/}}
-{{/*            </article>*/}}
+        {{/*            <article class="article">*/}}
+        {{/*                <p>{{ .Summary }}</p>*/}}
+        {{/*            </article>*/}}
 
-{{/*            <p class="text-muted">Reading time: about {{ .ReadingTime }} minutes</p>*/}}
-{{/*            <p><a class="btn btn-primary" href="{{ .URL | relURL }}">Read more...</a></p>*/}}
-{{/*        {{ end }}*/}}
+        {{/*            <p class="text-muted">Reading time: about {{ .ReadingTime }} minutes</p>*/}}
+        {{/*            <p><a class="btn btn-primary" href="{{ .URL | relURL }}">Read more...</a></p>*/}}
+        {{/*        {{ end }}*/}}
 
     </div>
 {{ end }}

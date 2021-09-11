@@ -7219,5 +7219,5 @@ a.text-dark:hover, a.text-dark:focus {
   position: relative;
   bottom: 0; }
 
-.b {
-  height: 600px; }
+.w-container {
+  max-width: 960px; }
