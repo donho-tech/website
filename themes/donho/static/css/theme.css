@@ -2,7 +2,6 @@
   --nav-bg-color: #8dd7d7; }
 
 .jumbotron.homepage-hero {
-  height: 600px;
   background-image: url("../img/bg-small.jpg");
   background-repeat: repeat;
   /*background-size: cover;*/
@@ -7217,10 +7216,6 @@ a.text-dark:hover, a.text-dark:focus {
 @media (min-width: 1200px) {
   .w-container {
     max-width: 960px; } }
-
-@media (min-width: 992px) {
-  .jumbotron.homepage-hero {
-    height: 500px; } }
 
 .min-100 {
   min-height: 100%; }
