@@ -28,20 +28,20 @@ import * as React from 'react';
 import './App.css';
 
 function App() {
-const [pet, setPet] = React.useState('dog');
+    const [pet, setPet] = React.useState('dog');
 
-return (
-<div className="App">
-<div>My pet is a {pet}</div>
+    return (
+        <div className="App">
+            <div>My pet is a {pet}</div>
 
-      <input type="radio" name="pet" value="dog" onChange={e => setPet(e.target.value)}/>
-      <label htmlFor="dog">Dog</label><br/>
-      <input type="radio" name="pet" value="cat" onChange={e => setPet(e.target.value)}/>
-      <label htmlFor="cat">Cat</label><br/>
-      <input type="radio" name="pet" value="mouse" onChange={e => setPet(e.target.value)}/>
-      <label htmlFor="mouse">Mouse</label>
-    </div>
-);
+            <input type="radio" name="pet" value="dog" onChange={e => setPet(e.target.value)}/>
+            <label htmlFor="dog">Dog</label><br/>
+            <input type="radio" name="pet" value="cat" onChange={e => setPet(e.target.value)}/>
+            <label htmlFor="cat">Cat</label><br/>
+            <input type="radio" name="pet" value="mouse" onChange={e => setPet(e.target.value)}/>
+            <label htmlFor="mouse">Mouse</label>
+        </div>
+    );
 }
 
 export default App;
