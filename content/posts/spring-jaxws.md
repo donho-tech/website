@@ -1,5 +1,5 @@
 +++
-date = 2020-08-19T19:55:18+02:00
+date = 2021-09-24
 title = "Create a webservice with Spring Boot and JAX-WS RI"
 description = ""
 slug = ""
@@ -13,13 +13,12 @@ series = []
 Learn how to create a SOAP webservice with JAX-WS RI and Spring Boot.
 
 What do you need to complete this tutorial?
-
-* Gradle
-* Java 16
+* Maven
+* Java 11
 
 [Download source code](https://github.com/donho-tech/tutorial-java-jaxws)
 
-Use [spring initializr](https://start.spring.io/) to create a Spring Boot application with Spring Web dependency.
+Use [spring initializr](https://start.spring.io/#!type=maven-project&language=java&packaging=jar&dependencies=web) to create a Spring Boot application with Spring Web dependency.
 
 Open your pom.xml and include `jaxws-rt` (the runtime) and `jaxws-spring` (a helper library for
 integrating jaxws-rt with Spring) in the `dependencies` section. Exclude the Spring dependencies from
@@ -59,7 +58,7 @@ jaxws-spring to avoid conflicts.
 </dependencies>
 ```
 
-Configure the `TutorialJavaJaxwsApplication.java` class, by importing an xml config file (jaxwsconfig.xml) which
+Create a `TutorialJavaJaxwsApplication.java` class, by importing an xml config file (jaxwsconfig.xml) which
 contains bean wiring for JAX-WS RI and register `WSSpringServlet` to receive incoming requests.
 
 ```java
@@ -120,7 +119,7 @@ Lastly, you have to add file `jaxwsconfig.xml` for wiring the service on the end
 </beans>
 ```
 
-Now open <http:/localhost:8080/hello?wsdl> to see the generated wsdl file. Your webservice has been deployed, and you
+Now open <http://localhost:8080/hello?wsdl> to see the generated wsdl file. Your webservice has been deployed, and you
 could now create a client for it.
 
 ## What to do next?
