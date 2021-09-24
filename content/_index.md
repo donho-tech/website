@@ -1,5 +1,5 @@
 ---
-title: "This is a title"
+title: "Don Ho, Java Freelancer"
 recentposts: 10
 greeting: "Hi, my name is Don"
 introduction: "I am a Freelance Java Developer based in Germany."
