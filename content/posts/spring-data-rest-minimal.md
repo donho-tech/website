@@ -1,5 +1,5 @@
 +++ 
-date = 2021-08-31T19:55:18+02:00
+date = 2021-07-01
 title = "A minimal Spring Data REST example"
 description = ""
 slug = ""
@@ -11,12 +11,12 @@ series = []
 +++
 
 What do you need to complete this tutorial?
-* Gradle
-* Java 16
+* Maven/Gradle
+* Java 17
 
 Go to the Spring Initializr website to create a new Spring project
 
-<a href="https://start.spring.io/#!type=gradle-project&amp;language=java&amp;platformVersion=2.4.1.RELEASE&amp;packaging=jar&amp;jvmVersion=15&amp;groupId=com.herrho&amp;artifactId=sdr-example&amp;name=sdr-example&amp;description=Demo%20for%20Spring%20Data%20REST&amp;packageName=com.herrho.sdr-example&amp;dependencies=data-rest,data-jpa,h2">https://start.spring.io/#!type=gradle-project&amp;language=java&amp;platformVersion=2.4.1.RELEASE&amp;packaging=jar&amp;jvmVersion=15&amp;groupId=com.herrho&amp;artifactId=sdr-example&amp;name=sdr-example&amp;description=Demo%20for%20Spring%20Data%20REST&amp;packageName=com.herrho.sdr-example&amp;dependencies=data-rest,data-jpa,h2</a>
+[Spring Initializer](https://start.spring.io/#!dependencies=h2,data-jpa,data-rest)
 
 Create a new Book class
 
