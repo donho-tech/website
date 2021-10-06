@@ -2,8 +2,16 @@ baseurl = "https://distracted-darwin-b970b2.netlify.app/"
 title = "Don Ho"
 theme = "donho"
 relativeURLs = true
+
 languageCode = "en"
 defaultContentLanguage = "en"
+[languages]
+    [languages.en]
+     	languageName = "English"
+     	weight = 1
+    [languages.de]
+     	languageName = "Deutsch"
+     	weight = 2
 
 paginate = 20
 canonifyUrls = true

@@ -1,9 +1,11 @@
 ---
 title: "Don Ho, Java Dev"
 recentposts: 10
-greeting: "Hi, my name is Don"
+greeting: "Hi, ich heiße Don"
 introduction: "I am a Freelance Java Developer based in Germany."
 ---
+Ich begann
+
 I started programming in school with Turbo Pascal which my Dad taught me. After graduating from Uni as a M.Sc. in
 Applied Computer Science, I worked for several companies as a Software Engineer before becoming a Freelancer in 2017,
 focusing on Java/Spring Boot projects with some degree of Typescript/React frontend development.

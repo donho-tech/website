@@ -17,7 +17,10 @@
                                         <div class="col-12 col-md-7 pb-5">
                                             <h1 class="display-4">{{ .Page.Params.greeting }}</h1>
                                             <p class="lead">{{ .Page.Params.introduction }}</p>
-                                            {{ .Content }}
+                                            <p>
+                                                Want to work with me? I am available for full time project work starting
+                                                from <span>January 2022</span>.
+                                            </p>
                                             <button type="button" class="btn btn-primary">Let's talk</button>
                                         </div>
                                         <div class="d-none d-md-block col-md-5">
@@ -73,51 +76,9 @@
         </div>
 
         <div class="homepage-component">
-            <h2 class="lead text-center">About me</h2>
-            <p>
-                I started programming in school with Turbo Pascal which my Dad taught me. After graduating from Uni as a
-                M.Sc. in Applied Computer Science, I worked for several companies as a Software Engineer before
-                becoming a Freelancer in 2017.
-            </p>
-            <p>
-                To me, software engineering is not only about programming and trying out the latest technologies but
-                also about creating solutions in a maintainable and economically viable way. Moreover, communication and
-                good team work are key ingredients for successful larger projects.
-            </p>
-            <p>
-                Besides programming, I love playing Badminton, singing Karaoke and going to the children's playground
-                with my daughter.
-            </p>
+            <div class="lead text-center">About me</div>
+            {{ .Content }}
         </div>
-
-        {{/*        {{ $recentposts := 5 }}*/}}
-        {{/*        {{ if .Params.recentposts }}*/}}
-        {{/*            {{ $recentposts = .Params.recentposts }}*/}}
-        {{/*        {{ end }}*/}}
-
-        {{/*        <div class="lead text-center">Recent posts</div>*/}}
-
-        {{/*        {{ range first $recentposts (where .Pages "Type" "posts" ) }}*/}}
-        {{/*            <h2 class="mt-5"><a class="text-body" href="{{ .URL | relURL}}">{{ .Title | markdownify}}</a></h2>*/}}
-        {{/*            {{ if .Params.Subtitle }}*/}}
-        {{/*                <h3 class="font-weight-light font-italic mb-3">{{ .Params.Subtitle | markdownify }}</h3>*/}}
-        {{/*            {{ end }}*/}}
-
-        {{/*            <p class="text-muted mt-3">*/}}
-        {{/*                <a class="text-muted" href="{{ .Permalink }}">Published {{ .Date.Format "January 2, 2006"  }}</a>*/}}
-
-        {{/*                {{ range .Params.tags }}*/}}
-        {{/*                    <a class="text-muted" href="{{ "/tags/" | relURL }}{{ . | urlize }}">#{{ . }}</a>*/}}
-        {{/*                {{ end }}*/}}
-        {{/*            </p>*/}}
-
-        {{/*            <article class="article">*/}}
-        {{/*                <p>{{ .Summary }}</p>*/}}
-        {{/*            </article>*/}}
-
-        {{/*            <p class="text-muted">Reading time: about {{ .ReadingTime }} minutes</p>*/}}
-        {{/*            <p><a class="btn btn-primary" href="{{ .URL | relURL }}">Read more...</a></p>*/}}
-        {{/*        {{ end }}*/}}
 
     </div>
 {{ end }}
