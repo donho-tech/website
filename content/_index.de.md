@@ -9,7 +9,7 @@ header_social_proof: "Kunden für die ich gearbeitet habe"
 header_technologies: "Technologien die ich nutze"
 header_about: "Über mich"
 ---
-Meine ersten Programmier-Gehversuche tat ich in der Schule, als mir mein Vater  beigebracht hat. Nachdem ich die Uni als
+Meine ersten Programmier-Gehversuche tat ich in der Schule, als mir mein Vater Turbo Pascal beigebracht hat. Nachdem ich die Uni als
 M.Sc. in Angewandter Informatik abgeschlossen habe, arbeitete ich für verschiedene Firmen als Software Engineer bevor
 ich mich 2007 als Freiberufler selbstständig gemacht habe. Technologisch fokussiere ich mich auf Java/Spring Boot
 Projekte mit Typescript/React Frontends.
