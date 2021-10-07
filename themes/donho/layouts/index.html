@@ -18,10 +18,9 @@
                                             <h1 class="display-4">{{ .Page.Params.greeting }}</h1>
                                             <p class="lead">{{ .Page.Params.introduction }}</p>
                                             <p>
-                                                Want to work with me? I am available for full time project work starting
-                                                from <span>January 2022</span>.
+                                                {{ .Page.Params.cta }}
                                             </p>
-                                            <button type="button" class="btn btn-primary">Let's talk</button>
+                                            <button type="button" class="btn btn-primary">{{ .Page.Params.cta_button }}</button>
                                         </div>
                                         <div class="d-none d-md-block col-md-5">
                                             <img src="/img/person.png" alt="Picture of Don Ho" width="350px"/>
@@ -39,7 +38,7 @@
 
     <div class="container">
         <div class="homepage-component">
-            <div class="lead text-center">Companies I have worked for</div>
+            <div class="lead text-center">{{ .Page.Params.header_social_proof }}</div>
             <div class="d-flex flex-wrap justify-content-around mt-3">
                 <img src="/img/logo_dbschenker_bw.png" alt="DB Schenker Logo" width="320px"/>
                 <img src="/img/logo_uniper_bw.png" alt="Uniper Logo" width="60px"/>
@@ -49,7 +48,7 @@
         </div>
 
         <div class="homepage-component">
-            <div class="lead text-center">Technologies I use</div>
+            <div class="lead text-center">{{ .Page.Params.header_technologies }}</div>
             <div class="row">
                 <div class="col-12 col-md-4 p-3 techstack">
                     <div>Frontend</div>
@@ -76,7 +75,7 @@
         </div>
 
         <div class="homepage-component">
-            <div class="lead text-center">About me</div>
+            <div class="lead text-center">{{ .Page.Params.header_about }}</div>
             {{ .Content }}
         </div>
 

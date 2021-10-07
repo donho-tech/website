@@ -2,18 +2,22 @@
 title: "Don Ho, Java Dev"
 recentposts: 10
 greeting: "Hi, ich heiße Don"
-introduction: "I am a Freelance Java Developer based in Germany."
+introduction: "Ich arbeite als freiberuflicher Java Entwickler."
+cta: "Suchst du Unterstützung? Ich bin Vollzeit verfügbar ab Januar 2022."
+cta_button: "Kontaktiere mich"
+header_social_proof: "Kunden für die ich gearbeitet habe"
+header_technologies: "Technologien die ich nutze"
+header_about: "Über mich"
 ---
-Ich begann
+Meine ersten Programmier-Gehversuche tat ich in der Schule, als mir mein Vater  beigebracht hat. Nachdem ich die Uni als
+M.Sc. in Angewandter Informatik abgeschlossen habe, arbeitete ich für verschiedene Firmen als Software Engineer bevor
+ich mich 2007 als Freiberufler selbstständig gemacht habe. Technologisch fokussiere ich mich auf Java/Spring Boot
+Projekte mit Typescript/React Frontends.
 
-I started programming in school with Turbo Pascal which my Dad taught me. After graduating from Uni as a M.Sc. in
-Applied Computer Science, I worked for several companies as a Software Engineer before becoming a Freelancer in 2017,
-focusing on Java/Spring Boot projects with some degree of Typescript/React frontend development.
+Software Engineering ist für mich nicht nur Programmieren und Herumspielen mit neuen Technologien, sondern auch die
+Erstellung wartbarer und wirtschaftlicher Lösungen, was ab und zu auch ein gesundes Maß an Pragmatismus erfordert. 
+Darüber hinaus sind meiner Meinung nach Teamgeist und gute Kommunikation wichtiger als ein Team aus "10x Developern" die
+nicht effektiv miteinander kommunizieren.
 
-To me, software engineering is not only about programming and trying out the latest technologies but also about creating
-maintainable and economically viable (read: pragmatic) solutions. Moreover, in my opinion communication and good team
-work are more important for successful largish projects than having a team of so-called 10x developers which do not work
-well together.
-
-Besides being a programmer, I am a father of a lovely daughter, an enthusiastic Badminton player and a passionate
-Karaoke singer.
+Neben meiner Arbeit als Programmierer bin ich Vater einer kleinen Tochter, enthusiastischer Badminton Spieler und
+leidenschaftlicher Karaoke Sänger.
