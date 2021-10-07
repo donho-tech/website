@@ -1,3 +1,8 @@
+.navbar-donho {
+  background-image: url("../img/bg-small.jpg");
+  background-repeat: repeat;
+  background-color: white; }
+
 .jumbotron.homepage-hero {
   background-image: url("../img/bg-small.jpg");
   background-repeat: repeat;

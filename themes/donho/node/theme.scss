@@ -11,7 +11,10 @@ $container-max-widths: (
         xl: 960px
 );
 
-:root {
+.navbar-donho {
+  background-image: url("../img/bg-small.jpg");
+  background-repeat: repeat;
+  background-color: white;
 }
 
 .jumbotron.homepage-hero {
