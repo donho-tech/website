@@ -14,16 +14,12 @@ $container-max-widths: (
 :root {
 }
 
-.navbar-donho {
-  //background-color: var(--nav-bg-color);
-}
-
 .jumbotron.homepage-hero {
   //height: 600px;
 
   background-image: url("../img/bg-small.jpg");
   background-repeat: repeat;
-  /*background-size: cover;*/
+  background-color: white;
 }
 
 .techstack {
