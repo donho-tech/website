@@ -1,5 +1,5 @@
 +++
-date = 2020-08-19T19:55:18+02:00
+date = 2021-01-20
 title = "Use cloud-init to prepare your cloud VMs"
 description = ""
 slug = ""

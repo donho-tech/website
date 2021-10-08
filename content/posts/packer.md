@@ -1,5 +1,5 @@
 +++
-date = 2020-08-19T19:55:18+02:00
+date = 2021-01-02
 title = "Use packer to create a VM image on Hetzner cloud"
 description = ""
 slug = ""

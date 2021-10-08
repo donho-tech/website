@@ -16,14 +16,10 @@ defaultContentLanguage = "en"
 paginate = 20
 canonifyUrls = true
 
-pygmentsCodeFences = true
-pygmentsUseClasses = true
-
 [markup]
 	[markup.highlight]
 		codeFences = true
-		style = "bw"
-		guessSyntax = false
+		style = "dracula"
 
 [params]
     author = "Don Ho"

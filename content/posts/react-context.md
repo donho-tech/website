@@ -1,5 +1,5 @@
 +++
-date = 2020-08-19T19:55:18+02:00
+date = 2021-06-18
 title = "How to use React Context"
 description = ""
 slug = ""

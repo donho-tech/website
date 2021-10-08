@@ -6,29 +6,185 @@
     <description>Recent content in Posts on Don Ho</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 31 Aug 2021 19:55:18 +0200</lastBuildDate><atom:link href="https://distracted-darwin-b970b2.netlify.app/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 24 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://distracted-darwin-b970b2.netlify.app/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Create a webservice with Spring Boot and JAX-WS RI</title>
+      <link>https://distracted-darwin-b970b2.netlify.app/posts/spring-jaxws/</link>
+      <pubDate>Fri, 24 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://distracted-darwin-b970b2.netlify.app/posts/spring-jaxws/</guid>
+      <description>Learn how to create a SOAP webservice with JAX-WS RI and Spring Boot.
+What do you need to complete this tutorial?
+ Maven Java 11  Download source code
+Use spring initializr to create a Spring Boot application with Spring Web dependency.
+Open your pom.xml and include jaxws-rt (the runtime) and jaxws-spring (a helper library for integrating jaxws-rt with Spring) in the dependencies section. Exclude the Spring dependencies from jaxws-spring to avoid conflicts.</description>
+    </item>
+    
     <item>
       <title>A minimal Spring Data REST example</title>
       <link>https://distracted-darwin-b970b2.netlify.app/posts/spring-data-rest-minimal/</link>
-      <pubDate>Tue, 31 Aug 2021 19:55:18 +0200</pubDate>
+      <pubDate>Thu, 01 Jul 2021 00:00:00 +0000</pubDate>
       
       <guid>https://distracted-darwin-b970b2.netlify.app/posts/spring-data-rest-minimal/</guid>
       <description>What do you need to complete this tutorial?
- Gradle Java 16  Go to the Spring Initializr website to create a new Spring project
-https://start.spring.io/#!type=gradle-project&amp;amp;amp;language=java&amp;amp;amp;platformVersion=2.4.1.RELEASE&amp;amp;amp;packaging=jar&amp;amp;amp;jvmVersion=15&amp;amp;amp;groupId=com.herrho&amp;amp;amp;artifactId=sdr-example&amp;amp;amp;name=sdr-example&amp;amp;amp;description=Demo%20for%20Spring%20Data%20REST&amp;amp;amp;packageName=com.herrho.sdr-example&amp;amp;amp;dependencies=data-rest,data-jpa,h2Create a new Book class
+ Maven/Gradle Java 17  Go to the Spring Initializr website to create a new Spring project
+Spring Initializer
+Create a new Book class
 @Entity public class Book { @Id @GeneratedValue(strategy = GenerationType.AUTO) private long id; private String title; public long getId() { return id; } public void setId(long id) { this.id = id; } public String getTitle() { return title; } public void setTitle(String title) { this.</description>
     </item>
     
     <item>
       <title>Indeterminate input checkbox with React</title>
+      <link>https://distracted-darwin-b970b2.netlify.app/posts/indeterminate-checkbox-react/</link>
+      <pubDate>Sat, 19 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://distracted-darwin-b970b2.netlify.app/posts/indeterminate-checkbox-react/</guid>
+      <description>Learn how to render an indeterminate checkbox with React.
+What do you need to complete this tutorial?
+ npm  Create a new React project
+npx create-react-app indeterminate-checkbox --template typescript Replace src/App.tsx with the following
+import * as React from &amp;#39;react&amp;#39;; import &amp;#39;./App.css&amp;#39;; import {useState} from &amp;#34;react&amp;#34;; function App() { const [selectAll, setSelectAll] = useState&amp;lt;boolean | null&amp;gt;(null) return ( &amp;lt;div className=&amp;#34;App&amp;#34;&amp;gt; Indeterminate checkbox: &amp;lt;input type=&amp;#34;checkbox&amp;#34; checked={selectAll !== null ? selectAll : false} ref={el =&amp;gt; el &amp;amp;amp;&amp;amp;amp; (el.</description>
+    </item>
+    
+    <item>
+      <title>Render a comma separated array with React and TypeScript</title>
+      <link>https://distracted-darwin-b970b2.netlify.app/posts/array-react/</link>
+      <pubDate>Sat, 19 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://distracted-darwin-b970b2.netlify.app/posts/array-react/</guid>
+      <description>Learn how to render a comma separated array of JSX elements with React and TypeScript
+What do you need to complete this tutorial?
+ npm  Create a new React project
+npx create-react-app comma-separated-array --template typescript Replace src/App.tsx with the following
+import * as React from &amp;#39;react&amp;#39;; import &amp;#39;./App.css&amp;#39;; interface Person { firstName: string; lastName: string; } const PersonName: React.FC&amp;lt;Person&amp;gt; = ({firstName, lastName}) =&amp;gt; { return &amp;lt;span&amp;gt;{firstName} {lastName}&amp;lt;/span&amp;gt; } function App() { const persons = [ {firstName: &amp;#39;John&amp;#39;, lastName: &amp;#39;Snow&amp;#39;}, {firstName: &amp;#39;Daenerys&amp;#39;, lastName: &amp;#39;Targaryen&amp;#39;}, {firstName: &amp;#39;Hodor &amp;#39;, lastName: &amp;#39;Hodor &amp;#39;}, ] return ( &amp;lt;div className=&amp;#34;App&amp;#34;&amp;gt; GoT characters: {persons .</description>
+    </item>
+    
+    <item>
+      <title>How to use React Context</title>
+      <link>https://distracted-darwin-b970b2.netlify.app/posts/react-context/</link>
+      <pubDate>Fri, 18 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://distracted-darwin-b970b2.netlify.app/posts/react-context/</guid>
+      <description>Learn how to use a React context to pass data to subcomponents.
+What do you need to complete this tutorial?
+ npm  Create a new React project
+npx create-react-app context --template typescript Replace src/App.tsx with the following
+import * as React from &amp;#39;react&amp;#39;; import {useContext} from &amp;#39;react&amp;#39;; import &amp;#39;./App.css&amp;#39;; interface User { name: string; } const UserContext = React.createContext&amp;lt;User&amp;gt;({name: &amp;#39;anonymous&amp;#39;}) const Greeting: React.FC = () =&amp;gt; { const user = useContext(UserContext) return &amp;lt;div&amp;gt;Hello {user.</description>
+    </item>
+    
+    <item>
+      <title>Indeterminate input checkbox with React</title>
       <link>https://distracted-darwin-b970b2.netlify.app/posts/indeterminate-input-checkbox-react/</link>
-      <pubDate>Tue, 31 Aug 2021 19:55:18 +0200</pubDate>
+      <pubDate>Fri, 18 Jun 2021 00:00:00 +0000</pubDate>
       
       <guid>https://distracted-darwin-b970b2.netlify.app/posts/indeterminate-input-checkbox-react/</guid>
       <description>What do you need to complete this tutorial?
  npm  Create a new React project
 npx create-react-app indeterminate-checkbox --template typescript Replace src/App.tsx with the following
 import * as React from &amp;#39;react&amp;#39;; import &amp;#39;./App.css&amp;#39;; import {useState} from &amp;#34;react&amp;#34;; function App() { const [selectAll, setSelectAll] = useState&amp;lt;boolean | null&amp;gt;(null) return ( &amp;lt;div className=&amp;#34;App&amp;#34;&amp;gt; Indeterminate checkbox: &amp;lt;input type=&amp;#34;checkbox&amp;#34; checked={selectAll !== null ? selectAll : false} ref={el =&amp;gt; el &amp;amp;&amp;amp; (el.indeterminate = selectAll === null)} onChange={() =&amp;gt; setSelectAll(!</description>
+    </item>
+    
+    <item>
+      <title>Use an HTML Checkbox with React</title>
+      <link>https://distracted-darwin-b970b2.netlify.app/posts/inputcheckbox-react/</link>
+      <pubDate>Fri, 18 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://distracted-darwin-b970b2.netlify.app/posts/inputcheckbox-react/</guid>
+      <description>Learn how to use a HTML input checkbox with React and TypeScript.
+What do you need to complete this tutorial?
+ npm  Create a new React project
+npx create-react-app react-checkbox --template typescript Replace src/App.tsx with the following
+import * as React from &amp;#39;react&amp;#39;; import &amp;#39;./App.css&amp;#39;; function App() { const [selected, setSelected] = React.useState(false); return ( &amp;lt;div className=&amp;#34;App&amp;#34;&amp;gt; &amp;lt;span&amp;gt; Checkbox clicked: {selected ? &amp;#39;yes&amp;#39; : &amp;#39;no&amp;#39;} &amp;lt;/span&amp;gt; &amp;lt;input type=&amp;#34;checkbox&amp;#34; onChange={e =&amp;gt; setSelected(e.</description>
+    </item>
+    
+    <item>
+      <title>Use an HTML Select with React</title>
+      <link>https://distracted-darwin-b970b2.netlify.app/posts/select-react/</link>
+      <pubDate>Fri, 18 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://distracted-darwin-b970b2.netlify.app/posts/select-react/</guid>
+      <description>Learn how to use a HTML select with React and TypeScript.
+What do you need to complete this tutorial?
+ npm  Create a new React project
+npx create-react-app react-select --template typescript Replace src/App.tsx with the following
+import * as React from &amp;#39;react&amp;#39;; import &amp;#39;./App.css&amp;#39;; function App() { const [pet, setPet] = React.useState(&amp;#39;dog&amp;#39;); return ( &amp;lt;div className=&amp;#34;App&amp;#34;&amp;gt; &amp;lt;div&amp;gt;My pet is a {pet}&amp;lt;/div&amp;gt; &amp;lt;select value={pet} onChange={e =&amp;gt; setPet(e.target.value)}&amp;gt; &amp;lt;option value=&amp;#34;dog&amp;#34;&amp;gt;Dog&amp;lt;/option&amp;gt; &amp;lt;option value=&amp;#34;cat&amp;#34;&amp;gt;Cat&amp;lt;/option&amp;gt; &amp;lt;option value=&amp;#34;mouse&amp;#34;&amp;gt;Mouse&amp;lt;/option&amp;gt; &amp;lt;/select&amp;gt; &amp;lt;/div&amp;gt; ); } export default App; And there you have it, a beautiful React app which handles your select events.</description>
+    </item>
+    
+    <item>
+      <title>Use an HTML Radio Button with React</title>
+      <link>https://distracted-darwin-b970b2.netlify.app/posts/radiobutton-react/</link>
+      <pubDate>Thu, 17 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://distracted-darwin-b970b2.netlify.app/posts/radiobutton-react/</guid>
+      <description>Learn how to use a HTML radio button with React and TypeScript.
+What do you need to complete this tutorial?
+ npm  Create a new React project
+npx create-react-app react-radio --template typescript Replace src/App.tsx with the following
+import * as React from &amp;#39;react&amp;#39;; import &amp;#39;./App.css&amp;#39;; function App() { const [pet, setPet] = React.useState(&amp;#39;dog&amp;#39;); return ( &amp;lt;div className=&amp;#34;App&amp;#34;&amp;gt; &amp;lt;div&amp;gt;My pet is a {pet}&amp;lt;/div&amp;gt; &amp;lt;input type=&amp;#34;radio&amp;#34; name=&amp;#34;pet&amp;#34; value=&amp;#34;dog&amp;#34; onChange={e =&amp;gt; setPet(e.target.value)}/&amp;gt; &amp;lt;label htmlFor=&amp;#34;dog&amp;#34;&amp;gt;Dog&amp;lt;/label&amp;gt;&amp;lt;br/&amp;gt; &amp;lt;input type=&amp;#34;radio&amp;#34; name=&amp;#34;pet&amp;#34; value=&amp;#34;cat&amp;#34; onChange={e =&amp;gt; setPet(e.</description>
+    </item>
+    
+    <item>
+      <title>Use an HTML input text field with React</title>
+      <link>https://distracted-darwin-b970b2.netlify.app/posts/inputtextfield-react/</link>
+      <pubDate>Tue, 15 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://distracted-darwin-b970b2.netlify.app/posts/inputtextfield-react/</guid>
+      <description>Learn how to use a HTML input text field with React and TypeScript.
+What do you need to complete this tutorial?
+ npm  Create a new React project
+npx create-react-app react-textfield --template typescript Replace src/App.tsx with the following
+import * as React from &amp;#39;react&amp;#39;; import &amp;#39;./App.css&amp;#39;; function App() { const [name, setName] = React.useState(&amp;#39;Peter&amp;#39;); return ( &amp;lt;div className=&amp;#34;App&amp;#34;&amp;gt; &amp;lt;div&amp;gt;Hello {name}!&amp;lt;/div&amp;gt; &amp;lt;label htmlFor=&amp;#34;name&amp;#34;&amp;gt;Name&amp;lt;/label&amp;gt; &amp;lt;input type=&amp;#34;text&amp;#34; name=&amp;#34;name&amp;#34; value={name} onChange={e =&amp;gt; setName(e.target.value)}/&amp;gt; &amp;lt;/div&amp;gt; ); } export default App; And there you have it, a beautiful React app which handles your input text field.</description>
+    </item>
+    
+    <item>
+      <title>Run a React app with Docker</title>
+      <link>https://distracted-darwin-b970b2.netlify.app/posts/dockerize-react/</link>
+      <pubDate>Mon, 14 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://distracted-darwin-b970b2.netlify.app/posts/dockerize-react/</guid>
+      <description>Learn how to dockerize a React app!
+What do you need to complete this tutorial?
+ npm IntelliJ IDEA  A dockerized React app
+Create a simple React app with create-react-app
+npx create-react-app my-app
+Inside the my-app folder, create a Dockerfile (named &amp;ldquo;Dockerfile&amp;rdquo;)
+FROMnode:15.0.1-alpine3.10 as buildWORKDIR/usr/src/appCOPY package.json yarn.lock ./RUN yarnCOPY . ./RUN yarn buildFROMnginx:stable-alpineCOPY --from=build /usr/src/app/build /usr/share/nginx/htmlEXPOSE80CMD &amp;amp;#91;&amp;#34;nginx&amp;#34;, &amp;#34;-g&amp;#34;, &amp;#34;daemon off;&amp;#34;]Build the Docker image
+docker build --tag my-app:0.1 . Run the Docker image</description>
+    </item>
+    
+    <item>
+      <title>Use cloud-init to prepare your cloud VMs</title>
+      <link>https://distracted-darwin-b970b2.netlify.app/posts/cloudinit/</link>
+      <pubDate>Wed, 20 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://distracted-darwin-b970b2.netlify.app/posts/cloudinit/</guid>
+      <description>Learn what cloud-init is and how to use it.
+To test your cloud-init script, you can use any of the big cloud providers (Azure, AWS, GCC&amp;hellip;).
+What is cloud-init?
+Cloud-init is a tool to prepare your cloud Linux VMs before using. For example, you could install necessary software to create a CI/CD pipeline like Docker, Nomad by installing the corresponding packages or harden your VM by configuring intrusion detection software, disabling root login and setting a non-standard SSH port.</description>
+    </item>
+    
+    <item>
+      <title>Use packer to create a VM image on Hetzner cloud</title>
+      <link>https://distracted-darwin-b970b2.netlify.app/posts/packer/</link>
+      <pubDate>Sat, 02 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://distracted-darwin-b970b2.netlify.app/posts/packer/</guid>
+      <description>Learn how to use packer to create a VM image to use it as a base template on the Hetzner cloud.
+What do you need to complete this tutorial?
+ packer Hetzner cloud account and API token  What is packer?
+Hashicorp packer is a tool to automatically create VM images. You can start from a base image, configure it (e.g. installing software or hardening) and store it in the Hetzner cloud for further usage.</description>
+    </item>
+    
+    <item>
+      <title>Contract-first webservice with Spring Boot and JAX-WS RI</title>
+      <link>https://distracted-darwin-b970b2.netlify.app/posts/jaxws-contractfirst/</link>
+      <pubDate>Wed, 19 Aug 2020 19:55:18 +0200</pubDate>
+      
+      <guid>https://distracted-darwin-b970b2.netlify.app/posts/jaxws-contractfirst/</guid>
+      <description>Download source code
+At first, set up your pom.xml file. Besides stuff for Spring Boot, you&amp;rsquo;ll include jaxws-rt (the runtime) and jaxws-spring (a helper library for integrating jaxws-rt with Spring). Exclude the Spring dependencies from jaxws-spring to avoid conflicts. You will also need the jaxws-maven-plugin to help you generate the service classes
+&amp;lt;?xml version=&amp;#34;1.0&amp;#34; encoding=&amp;#34;UTF-8&amp;#34;?&amp;gt; &amp;lt;project xmlns=&amp;#34;http://maven.apache.org/POM/4.0.0&amp;#34; xmlns:xsi=&amp;#34;http://www.w3.org/2001/XMLSchema-instance&amp;#34; xsi:schemaLocation=&amp;#34;http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd&amp;#34;&amp;gt; &amp;lt;modelVersion&amp;gt;4.0.0&amp;lt;/modelVersion&amp;gt; &amp;lt;groupId&amp;gt;com.example&amp;lt;/groupId&amp;gt; &amp;lt;artifactId&amp;gt;jaxws-contract-first&amp;lt;/artifactId&amp;gt; &amp;lt;version&amp;gt;1.0-SNAPSHOT&amp;lt;/version&amp;gt; &amp;lt;parent&amp;gt; &amp;lt;groupId&amp;gt;org.springframework.boot&amp;lt;/groupId&amp;gt; &amp;lt;artifactId&amp;gt;spring-boot-starter-parent&amp;lt;/artifactId&amp;gt; &amp;lt;version&amp;gt;1.4.3.RELEASE&amp;lt;/version&amp;gt; &amp;lt;/parent&amp;gt; &amp;lt;dependencies&amp;gt; &amp;lt;dependency&amp;gt; &amp;lt;groupId&amp;gt;org.</description>
     </item>
     
   </channel>

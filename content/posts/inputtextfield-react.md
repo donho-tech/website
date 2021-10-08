@@ -1,5 +1,5 @@
 +++
-date = 2020-08-19T19:55:18+02:00
+date = 2021-06-15
 title = "Use an HTML input text field with React"
 description = ""
 slug = ""

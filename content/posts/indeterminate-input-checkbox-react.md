@@ -1,5 +1,5 @@
 +++ 
-date = 2021-08-31T19:55:18+02:00
+date = 2021-06-18
 title = "Indeterminate input checkbox with React"
 description = ""
 slug = "indeterminate-input-checkbox-react"
