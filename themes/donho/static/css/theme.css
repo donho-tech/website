@@ -7225,3 +7225,6 @@ a.text-dark:hover, a.text-dark:focus {
   position: absolute;
   bottom: 0;
   right: 0; }
+
+.highlight pre {
+  padding: 1rem; }
