@@ -46,7 +46,7 @@ canonifyUrls = true
     name = "Github"
     icon = "fab fa-github fa-2x"
     weight = 1
-    url = "https://github.com/herrho/"
+    url = "https://github.com/donho-tech/"
 [[params.social]]
     name = "YouTube"
     icon = "fab fa-youtube fa-2x"
@@ -56,7 +56,7 @@ canonifyUrls = true
     name = "Twitter"
     icon = "fab fa-twitter fa-2x"
     weight = 3
-    url = "https://twitter.com/herrho/"
+    url = "https://twitter.com/donho_tech/"
 
 # Menu links
 [menu]
