@@ -9,32 +9,26 @@ categories = []
 externalLink = ""
 series = []
 +++
-Learn how to dockerize a React app!
-
-What do you need to complete this tutorial?
-* npm
-* IntelliJ IDEA
-
-A dockerized React app
+Learn how to dockerize a React app
 
 Create a simple React app with create-react-app
-
-`npx create-react-app my-app`
+```bash
+npx create-react-app my-app
+```
 
 Inside the `my-app` folder, create a Dockerfile (named "Dockerfile")
-
 ```dockerfile
-FROM node:15.0.1-alpine3.10 as build
+FROM node:current-alpine as build
 WORKDIR /usr/src/app
-COPY package.json yarn.lock ./
-RUN yarn
+COPY package.json package-lock.json ./
+RUN npm install
 COPY . ./
-RUN yarn build
+RUN npm run build
 
 FROM nginx:stable-alpine
 COPY --from=build /usr/src/app/build /usr/share/nginx/html
 EXPOSE 80
-CMD &#91;"nginx", "-g", "daemon off;"]
+CMD ["nginx", "-g", "daemon off;"]
 ```
 
 Build the Docker image

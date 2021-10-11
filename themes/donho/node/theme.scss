@@ -67,3 +67,8 @@ $container-max-widths: (
 .highlight pre {
   padding: 1rem;
 }
+
+article p:first-child {
+  font-size: 1.25rem;
+  font-weight: 300;
+}

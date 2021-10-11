@@ -7228,3 +7228,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 .highlight pre {
   padding: 1rem; }
+
+article p:first-child {
+  font-size: 1.25rem;
+  font-weight: 300; }
