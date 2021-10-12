@@ -2,7 +2,7 @@
 date = 2021-06-19
 title = "Indeterminate input checkbox with React"
 description = ""
-slug = ""
+slug = "indeterminate-input-checkbox-react"
 authors = []
 tags = []
 categories = []

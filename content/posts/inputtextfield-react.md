@@ -11,12 +11,7 @@ series = []
 +++
 Learn how to use a HTML input text field with React and TypeScript.
 
-
-What do you need to complete this tutorial?
-* npm
-
 Create a new React project
-
 ```bash
 npx create-react-app react-textfield --template typescript
 ```
@@ -28,16 +23,16 @@ import * as React from 'react';
 import './App.css';
 
 function App() {
-const [name, setName] = React.useState('Peter');
+    const [name, setName] = React.useState('Peter');
 
-return (
-<div className="App">
-<div>Hello {name}!</div>
+    return (
+        <div className="App">
+            <div>Hello {name}!</div>
 
-      <label htmlFor="name">Name</label>
-      <input type="text" name="name" value={name} onChange={e => setName(e.target.value)}/>
-    </div>
-);
+            <label htmlFor="name">Name</label>
+            <input type="text" name="name" value={name} onChange={e => setName(e.target.value)}/>
+        </div>
+    );
 }
 
 export default App;

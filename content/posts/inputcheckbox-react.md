@@ -11,11 +11,7 @@ series = []
 +++
 Learn how to use a HTML input checkbox with React and TypeScript.
 
-What do you need to complete this tutorial?
-* npm
-
 Create a new React project
-
 ```bash
 npx create-react-app react-checkbox --template typescript
 ```
@@ -28,14 +24,14 @@ import './App.css';
 
 function App() {
 
-const [selected, setSelected] = React.useState(false);
+    const [selected, setSelected] = React.useState(false);
 
-return (
-<div className="App">
-<span> Checkbox clicked: {selected ? 'yes' : 'no'}      </span>
-<input type="checkbox" onChange={e => setSelected(e.target.checked)}/>
-</div>
-);
+    return (
+        <div className="App">
+            <span> Checkbox clicked: {selected ? 'yes' : 'no'}      </span>
+            <input type="checkbox" onChange={e => setSelected(e.target.checked)}/>
+        </div>
+    );
 }
 
 export default App;
