@@ -3,7 +3,7 @@ title: "Don Ho, Java Dev"
 recentposts: 10
 greeting: "Hi, my name is Don"
 introduction: "I am a Freelance Java Developer based in Germany."
-cta: "Want to work with me? I am available for full time project work starting from January 2022."
+cta: "Want to work with me? I am available for full time project work starting from July 2022."
 cta_button: "Let's talk"
 header_social_proof: "Companies I have worked for"
 header_technologies: "Technologies I use"

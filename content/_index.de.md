@@ -3,7 +3,7 @@ title: "Don Ho, Java Dev"
 recentposts: 10
 greeting: "Hi, ich heiße Don"
 introduction: "Ich bin freiberuflicher Java Entwickler."
-cta: "Suchst du Unterstützung? Ab Januar 2022 bin ich für Vollzeitprojekte verfügbar."
+cta: "Suchst du Unterstützung? Ab Juli 2022 bin ich für Vollzeitprojekte verfügbar."
 cta_button: "Kontaktiere mich"
 header_social_proof: "Kunden für die ich gearbeitet habe"
 header_technologies: "Technologien die ich nutze"
