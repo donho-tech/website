@@ -1,4 +1,5 @@
 +++
+draft = true
 date = 2020-08-19T19:55:18+02:00
 title = "Contract-first webservice with Spring Boot and JAX-WS RI"
 description = "This tutorial shows you how to create a contract-first SOAP web service with JAX-WS RI and Spring Boot. You will define the service contract first and then implement it."
@@ -9,6 +10,8 @@ categories = []
 externalLink = ""
 series = []
 +++
+
+Doesn't work anymore
 
 [Download source code](https://github.com/donho-tech/hellojaxws)
 
